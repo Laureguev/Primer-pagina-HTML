@@ -3,64 +3,96 @@
 <head> 
    <meta charset="UTF-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="././styles.css" />
+   <link rel="stylesheet" href="./reset.css">
    <title>Mi Primer Sitio Web</title>
 </head>
 <body>
      <header>
-
-       <h1>Lionel Andres Messi Cuccitini</h1>
-       <span>HOME</span>
-       <span>NOTICIAS</span>
-       <span>SOBRE EL</span>
+          <div id="encabezado">
+               <h1 class="title" id="principal">Lionel Andres Messi Cuccitini</h1>
+               <span>HOME</span>
+               <span>NOTICIAS</span>
+               <span>SOBRE EL</span>    
+          </div>
      </header>
-     
      <main>
-          <img src="./lionel-messi-wallpapers-hd-4k-screenshot.png" alt="">
-          <section>
-               <h2>CARRERA</h2>
+          <div id="imagenconteiner">
 
-               <article>
-                    <h3>Titulos</h3>
-                    <div>
-                         <p>Argentina: 5</p>
-                         <p>Barcelona: 35</p>
-                         <p>Psg: 2</p>
-                         <P>Inter miami: 1</P>
-                         <p>total: 43</p> 
-                    </div>
-                    
-               </article>
-               <hr />
-               <article>
-                    <h3>goles</h3>
-                    <div>
-                         <p>Argentina: 106</p>
-                         <p>Barcelona: 672</p>
-                         <p>Psg: 32</p>
-                         <p>Inter miami: 24</p> 
-                         <p>Total: 834</p>
-                    </div>
-                    
-               </article>
-               <hr />
-               <article>
-                    <h3>asistencias</h3>
-                    <div>
-                         <p>Argentina: 54</p>
-                         <p>Barcelona: 269</p>
-                         <p>Psg: 34</p>
-                         <p>Inter miami: 15</p> 
-                         <p>Total: 372</p>
-                    </div>
-                    
-               </article>
+               <div class="imagenprincipal">
+                    <h4 class="title">Argentina</h4>
+                    <img src="./lionel-messi-wallpapers-hd-4k-screenshot.png" class="imagen">
+               </div>
+               <div class="imagenprincipal">
+                    <h4 class="title">Barcelona</h4>
+                    <img src="C:\Users\Lau\Pictures\64030dae3daf6408f9ecd7f7c0e46b5a.jpg" class="imagen">
+               </div>
+               <div class="imagenprincipal">
+                    <h4 class="title">PSG</h4>
+                    <img src="C:\Users\Lau\Pictures\Mobile_2223_UK_L1_PSG_Messi_joy_celebration.jpg" class="imagen">
+               </div>
+               <div class="imagenprincipal">
+                    <h4 class="title">Inter Miami</h4>
+                    <img src="C:\Users\Lau\Pictures\f71f0293f3781b1cbbe166b87f7b1db0 (1).jpg" class="imagen">
+               </div>
+
+          </div>
+          <section>
+               <div id="encabezado">
+                    <h2 class="title" id="principal">CARRERA</h2>
+               </div>
+               <div id="informacion">
+                    <article>
+                         <h3 class="tga">Títulos</h3>
+                         <div>
+                              <p>Argentina: 5</p>
+                              <p>Barcelona: 35</p>
+                              <p>Psg: 2</p>
+                              <P>Inter miami: 1</P>
+                              <div id="resultado-total">
+                                   <p>Total: 43</p> 
+                              </div>
+                         </div>
+                         
+                    </article>
+                    <hr />
+                    <article>
+                         <h3 class="tga">Goles</h3>
+                         <div>
+                              <p>Argentina: 106</p>
+                              <p>Barcelona: 672</p>
+                              <p>Psg: 32</p>
+                              <p>Inter miami: 24</p> 
+                              <div id="resultado-total">
+                                   <p>Total: 834</p>
+                              </div>
+                         </div>
+                         
+                    </article>
+                    <hr />
+                    <article>
+                         <h3 class="tga">Asistencias</h3>
+                         <div>
+                              <p>Argentina: 54</p>
+                              <p>Barcelona: 269</p>
+                              <p>Psg: 34</p>
+                              <p>Inter miami: 15</p>
+                              <div id="resultado-total">
+                                   <p>Total: 372</p>
+                              </div> 
+                         </div>
+                         
+                    </article>
+               </div>
+               
                
               
                
           </section>        
      </main>
      <footer>
-          <p>
+        <div id="pie">
+          <p class="tga">
                Top 3 mejores goles de Lionel Messi
           </p>
           <ol>
@@ -69,7 +101,7 @@
                <li><a href="https://www.youtube.com/watch?v=RW75cGvO5xY">Messi vs Liverpool</a></li>
                <a href="./contacto.html">CONTACTANOS</a>
           </ol>
-          
+        </div>  
      </footer>
           
        
